@@ -1,7 +1,7 @@
 from app import app
 from flask import render_template, request, redirect
 import pandas as pd
-from db import conn
+import conn
 
 @app.route('/', methods=['GET','POST'])
 def index():
